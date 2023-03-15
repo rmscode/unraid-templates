@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>InvenTree</Name>
+  <Repository>inventree/inventree</Repository>
+  <Registry>https://hub.docker.com/r/inventree/inventree</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/inventree/InvenTree</Project>
+  <Overview>InvenTree is an open-source Inventory Management System which provides powerful low-level stock control and part tracking. The core of the InvenTree system is a Python/Django database backend which provides an admin interface (web-based) and a REST API for interaction with external interfaces and applications.&#xD;
+&#xD;
+InvenTree is designed to be lightweight and easy to use for SME or hobbyist applications, where many existing stock management solutions are bloated and cumbersome to use. Updating stock is a single-action process and does not require a complex system of work orders or stock transactions.&#xD;
+&#xD;
+Powerful business logic works in the background to ensure that stock tracking history is maintained, and users have ready access to stock level information.&#xD;
+&#xD;
+&#x1F3AF; Features&#xD;
+Organize Parts and BOMs&#xD;
+Manage Suppliers&#xD;
+Instant Stock Knowledge&#xD;
+Extend and Customize to fit your usage</Overview>
+  <Category>Productivity: Tools: Status:Stable</Category>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
+  <TemplateURL/>
+  <Icon>https://github.com/inventree/InvenTree/raw/master/images/logo/inventree.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1678842105</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Container Port" Target="6000" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8080</Config>
+</Container>
